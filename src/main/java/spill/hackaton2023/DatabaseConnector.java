@@ -9,7 +9,7 @@ public class DatabaseConnector {
     public void connect() throws SQLException {
         String url = "jdbc:mysql://localhost:3306/spill";
         String username = "root";
-        String password = "Tobesmart7.";
+        String password = "passord"; // skriv din egen passord
         connection = DriverManager.getConnection(url, username, password);
         System.out.println("Connected to the database");
     }
